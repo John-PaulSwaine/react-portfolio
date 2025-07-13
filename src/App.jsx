@@ -7,6 +7,7 @@ import Codenation from './pages/codenation'
 import PersonalProjects from './pages/personalprojects'
 import Week1to6 from './pages/week1to6'
 import Week7to12 from './pages/week7to12'
+import GithubImg from './assets/images/githubIcon.png'
 
 const App = () => {
 
@@ -17,6 +18,7 @@ const App = () => {
         <Link to='/codenation' className='links'>Code Nation</Link>
         <Link to='/personal-projects' className='links'>Personal Projects</Link>
         <Link to='/about' className='links'>About Me</Link>
+        <a href="https://github.com/John-PaulSwaine"><img src={GithubImg} class="socials" /></a>
       </nav>
 
       <Routes>

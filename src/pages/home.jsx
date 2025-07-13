@@ -1,6 +1,4 @@
-// import './App.css'
 import MainImg from '../assets/images/mainImage.jpg'
-import GithubImg from '../assets/images/githubIcon.png'
 
 const Home = () => {
 
@@ -16,15 +14,6 @@ const Home = () => {
           </div>
         </div>
       </header>
-      <main>
-
-      </main>
-      <footer>
-        <div id='github'>
-          <a href="https://github.com/John-PaulSwaine"><img src={GithubImg} class="socials" /></a>
-          <p>Github</p>
-        </div>
-      </footer>
     </div>
   )
 }
