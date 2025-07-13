@@ -7,7 +7,7 @@ const Home = () => {
       <header>
         <div id='header'>
           <div id='mainImg'>
-            <img src={MainImg} />
+            <img src={MainImg} alt='a picture of myself'/>
           </div>
           <div id='name'>
             <h1>John-Paul Swaine's Portfolio</h1>

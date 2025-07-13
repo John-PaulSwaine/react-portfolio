@@ -18,13 +18,13 @@ const App = () => {
         <Link to='/codenation' className='links'>Code Nation</Link>
         <Link to='/personal-projects' className='links'>Personal Projects</Link>
         <Link to='/about' className='links'>About Me</Link>
-        <a href="https://github.com/John-PaulSwaine"><img src={GithubImg} class="socials" /></a>
+        <a href="https://github.com/John-PaulSwaine"><img src={GithubImg} class="socials" alt='github icon'/></a>
       </nav>
 
       <Routes>
         <Route path='/' element={<Home />}></Route>
-        {<Route path='/codenation' element={<Codenation />}></Route>}
-        {<Route path='/personal-projects' element={<PersonalProjects />}></Route>}
+        <Route path='/codenation' element={<Codenation />}></Route>
+        <Route path='/personal-projects' element={<PersonalProjects />}></Route>
         <Route path='/about' element={<About />}></Route>
         <Route path='/codenation/week-1-to-6' element={<Week1to6 />}></Route>
         <Route path='/codenation/week-7-to-12' element={<Week7to12 />}></Route>
